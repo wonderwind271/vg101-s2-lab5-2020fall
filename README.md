@@ -13,21 +13,37 @@ An interpreter written by C to interpret simple matlab code.
 sample input:
 
 a=32
+
 b=-5+8.21-7^2
+
 c=  a\*b
+
 aa=a\*(b+c)+ 6^3;
+
 fprintf(" aa = %f\n " , aa)
+
 aa
+
+
 
 sample output:
 
 32.000000
+
 -45.790000
+
 -1465.280000
+
  aa = -48138.240000
+
  -48138.240000
+
 ---var list---
+
 a=32.000000
+
 b=-45.790000
+
 c=-1465.280000
+
 aa=-48138.240000
